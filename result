@@ -1,0 +1,17 @@
+Page should consist of at least two HTML list items and the tabsList, appsList should be rendered using a unique key as a prop for each tab item and app item respectively
+Page should consist of HTML main heading element with text content as "App Store"
+Page should consist of HTML input element with type attribute value as "search"
+Page should consist of HTML image element with alt attribute value as "search icon" and src attribute value as URL for the search icon
+Page should consist of at least two HTML unordered list elements to display the tabsList and appsList respectively
+Page should initially consist of at least fourteen HTML list items
+Page should consist of at least four HTML button elements each inside a HTML list item 
+Page should consist of at least four HTML button elements with text content equal to the "displayText" value of each item in tabsList provided
+Page should initially consist of at least ten HTML image elements inside HTML list items
+Page should initially consist of at least ten HTML paragraph elements inside HTML list items
+Page should initially display the apps from the "Social" category
+Page should initially consist of HTML image elements with alt value equal to "appName" value and src value equal to "imageUrl" value of each item with "category" equal to "Social" in appsList provided
+Page should initially consist of HTML paragraph elements with text content equal to the "appName" value of each item with "category" equal to "Social" in appsList provided
+When a non-empty value is provided in search input, the list of apps displayed should consist of the search input provided in the app name irrespective of the case
+When a tab is clicked, the filtered apps list should be displayed according to the active tab
+When a non-empty search text "m" is provided in search input, and a tab is clicked the filtered search results should be displayed
+When a non-empty random search text is provided in search input, and a tab is clicked the filtered search results should be displayed
